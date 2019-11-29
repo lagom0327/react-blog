@@ -1,3 +1,4 @@
+# [Demo](https://lagom0327.github.io/react-blog)
 
 - 只顯示有標題的文章
 - 可顯示 markdowon 格式，但有些 tag 的 css 被我 reset 了，所以看不出差別
@@ -21,9 +22,13 @@
     "deploy": "gh-pages -d build"
     }
     ```
-1. `git init` -> `git remote add origin https://github.com/lagom0327/react-blog.git` -> `npm run deploy` 會要求輸入 github 帳號密碼，成功後會在 `react-blog` 的 repository 新增名為 `gh-pages` 的 branch。
+1. `git init` 
+    -> `git remote add origin https://github.com/lagom0327/react-blog.git` 
+    -> `npm run deploy` 會要求輸入 github 帳號密碼，
+    成功後會在 `react-blog` 的 repository 新增名為 `gh-pages` 的 branch。
 1. 到 github 的 repository 的 setting 中 `Github Pages` 來源為 `gh-pages branch`
  
 
   ### 參考資料
   - [React-router 在 github page 的問題](https://blog.hidana.me/20190813.html)
+  - [react-markdown 使用总结](https://segmentfault.com/a/1190000020294373)
