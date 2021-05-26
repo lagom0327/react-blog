@@ -1,4 +1,5 @@
-# [Demo](https://lagom0327.github.io/react-blog)
+# ~~[Demo]~~ (https://lagom0327.github.io/react-blog)
+API 失效
 
 - 只顯示有標題的文章
 - 可顯示 markdowon 格式，但有些 tag 的 css 被我 reset 了，所以看不出差別
